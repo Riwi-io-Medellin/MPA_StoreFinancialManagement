@@ -22,8 +22,9 @@ async function login(inputUsername, inputPassword) {
         if (userFound.password === inputPassword) {
 
             localStorage.setItem("currentUser", JSON.stringify(userFound))
+            window.location.href = "dashboard.html"
 
-            alert("login correcto")
+
         } else {
             alert("credenciales incorrectas, revisa el correo o la contraseña")
         }
