@@ -13,16 +13,42 @@
   ],
   "categories": [
     {
-      "id": "11de",
-      "nombre": "electrodomesticos"
+      "id": "d30a",
+      "nombre": "emergencia"
     },
     {
-      "id": "623a",
-      "nombre": "hogar"
+      "id": "7181",
+      "nombre": "gustos"
     },
     {
-      "id": "a64f",
-      "nombre": "tegnologia"
+      "id": "cdef",
+      "nombre": "obligatorios"
+    }
+  ],
+  "movimientos": [
+    {
+      "id": "566d",
+      "tipo": "compra",
+      "descripcion": "tuve que hacer el mercado",
+      "importe": "6000",
+      "fecha": "2025-07-24",
+      "categoriaId": "cdef"
+    },
+    {
+      "id": "8ab0",
+      "tipo": "venta",
+      "descripcion": "vendi mi acciones de apple",
+      "importe": "9000000",
+      "fecha": "2025-07-23",
+      "categoriaId": "d30a"
+    },
+    {
+      "id": "1dc4",
+      "tipo": "venta",
+      "descripcion": "vendi el carro",
+      "importe": "30000000",
+      "fecha": "2025-06-06",
+      "categoriaId": "7181"
     }
   ]
 }
