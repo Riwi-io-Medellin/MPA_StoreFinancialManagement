@@ -11,5 +11,18 @@
       "password": "pepito123"
     }
   ],
-  "categories": []
+  "categories": [
+    {
+      "id": "11de",
+      "nombre": "electrodomesticos"
+    },
+    {
+      "id": "623a",
+      "nombre": "hogar"
+    },
+    {
+      "id": "a64f",
+      "nombre": "tegnologia"
+    }
+  ]
 }
