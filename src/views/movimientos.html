@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,10 +8,12 @@
   <link rel="stylesheet" href="../css/movimientos.css" />
   <script type="module" src="../js/guardian.js"></script>
 </head>
+
 <body>
   <header class="header">
     <h1>Movimientos Financieros</h1>
-    <button id="back-dashboard" class="btn-volver" onclick="location.href='./dashboard.html'">Volver al Dashboard</button>
+    <button id="back-dashboard" class="btn-volver" onclick="location.href='./dashboard.html'">Volver al
+      Dashboard</button>
   </header>
 
   <main class="main-container">
@@ -87,7 +90,7 @@
             <th>Acciones</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody id="tbody-movimientos">
           <!-- Aquí se inyectarán dinámicamente las filas -->
         </tbody>
       </table>
@@ -97,4 +100,5 @@
 
   <script type="module" src="../js/movimientos.js"></script>
 </body>
+
 </html>

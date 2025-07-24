@@ -32,7 +32,7 @@
       "descripcion": "tuve que hacer el mercado",
       "importe": "6000",
       "fecha": "2025-07-24",
-      "categoriaId": "cdef"
+      "categoryId": "cdef"
     },
     {
       "id": "8ab0",
@@ -40,7 +40,7 @@
       "descripcion": "vendi mi acciones de apple",
       "importe": "9000000",
       "fecha": "2025-07-23",
-      "categoriaId": "d30a"
+      "categoryId": "d30a"
     },
     {
       "id": "1dc4",
@@ -48,7 +48,50 @@
       "descripcion": "vendi el carro",
       "importe": "30000000",
       "fecha": "2025-06-06",
-      "categoriaId": "7181"
+      "categoryId": "7181"
+    },
+    {
+      "id": "63bc",
+      "tipo": "compra",
+      "descripcion": "test",
+      "importe": "90000",
+      "fecha": "2025-07-18",
+      "categoryId": "7181"
+    },
+    {
+      "id": "5e92",
+      "tipo": "compra",
+      "descripcion": "tuve que hacer el mercado",
+      "importe": "60000",
+      "fecha": "2025-07-12",
+      "categoryId": "cdef"
     }
-  ]
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
