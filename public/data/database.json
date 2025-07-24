@@ -1,14 +1,15 @@
 {
-    "users": [
-        {
-            "id": "j01f",
-            "username": "jesus",
-            "password": "contraseña"
-        },
-        {
-            "id": "h14d",
-            "username": "pepito",
-            "password": "pepito123"
-        }
-    ]
+  "users": [
+    {
+      "id": "j01f",
+      "username": "jesus",
+      "password": "contraseña"
+    },
+    {
+      "id": "h14d",
+      "username": "pepito",
+      "password": "pepito123"
+    }
+  ],
+  "categories": []
 }

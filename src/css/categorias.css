@@ -119,3 +119,68 @@ input {
 .lista-section .btn-eliminar:hover {
   background-color: #c82333;
 }
+
+.btn-editar,
+.btn-eliminar {
+  margin-left: 10px;
+  padding: 4px 8px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.btn-editar {
+  background-color: #ffc107;
+  border: none;
+  color: #000;
+}
+
+.btn-eliminar {
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+}
+
+#lista-categorias li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#lista-categorias li span {
+  flex: 1;
+  font-weight: 500;
+}
+
+.btn-editar,
+.btn-eliminar {
+  margin-left: 8px;
+  padding: 6px 12px;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-editar {
+  background-color: #ffe082;
+  color: #000;
+}
+
+.btn-editar:hover {
+  background-color: #ffd54f;
+}
+
+.btn-eliminar {
+  background-color: #ef5350;
+  color: #fff;
+}
+
+.btn-eliminar:hover {
+  background-color: #e53935;
+}
